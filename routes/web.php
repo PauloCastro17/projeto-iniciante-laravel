@@ -1,11 +1,21 @@
 <?php
 
 use App\Http\Controllers\SiteController;
+use  App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/welcome', function () {
-    return view('welcome');
+//SITE
+Route::get('/', [SiteController::class, 'index'])->name('site.index');
+
+//LOGIN
+Route::get('/login', [LoginController::class, 'index'])->name('site.login');
+Route::post('/login', [LoginController::class, 'authenticate'])->name('auth.login');
+
+//DASHBOARD
+Route::middleware(['auth'])->group(function () {
+    //DASHBOARD
+
+    Route::get('/dashboard', [SiteController::class, 'dashboard'])->name('site.dashboard');
+
+    Route::post('/logout', [LoginController::class, 'logout'])->name('auth.logout');
 });
-
-Route::get('/', [SiteController::class, 'index']);
-
