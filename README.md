@@ -22,7 +22,7 @@ qual faz parte do contexto das migrations.
 
 ## 📘 Método de estudo
 - Documentação Principal do Laravel
-- Canal do YouTube -> [Ygor Combi](https://www.youtube.com/@combizera) -> [Playlist que estou usando](youtube.com/watch?v=2gH4PYUQGEk&list=PLD7Cv06_bpM8zzn66ln1oyx89jZSRFIFL&index=1&pp=iAQB)
+- Canal do YouTube -> [Ygor Combi](https://www.youtube.com/@combizera) -> [Playlist que estou usando](https://www.youtube.com/watch?v=2gH4PYUQGEk&list=PLD7Cv06_bpM8zzn66ln1oyx89jZSRFIFL&index=1&pp=iAQB)
 
 ## ⚙️ Tecnologias utilizadas/a utilizar.
 - Laravel
