@@ -32,3 +32,7 @@ qual faz parte do contexto das migrations.
 ## ⚒️ Ferramentas utilizadas/a utilizar.
 - PHPStorm (IDE)
 - DBeaver (SGBD/DBMS)
+
+## 🚀 Comunidade Recomendada
+- [📷 CODA.CE](https://www.instagram.com/coda.ce/)
+- [🌐 CODA.CE](https://coda-ce.com.br/)
