@@ -20,7 +20,7 @@ de dashboard, login e a funcionalidade de logout. O login já está validando os
 funcionalidade que permite inserir "dados de teste" diretamente no banco de dados que são os **Seedeers**, funcionalidade no 
 qual faz parte do contexto das migrations.
 <br><br>
-- **24/03** - Forma de login reformulada, anteriormente as credenciais eram validadas dentro do controller, mas é melhor que 
+- **25/03** - Forma de login reformulada, anteriormente as credenciais eram validadas dentro do controller, mas é melhor que 
 seja criado uma classe propria, tal classe que estende da **FormRequest**. Mesma coisa foi feita para a parte de cadastro do 
 usuário. Começo da criação de tabelas de hábitos e o log de hábitos e também foi feito pequenas alterações de front.
 
